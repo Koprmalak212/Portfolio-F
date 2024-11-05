@@ -53,6 +53,16 @@ nav a:hover {
     transform: rotate(270deg);
 }
 
+.aboutme{
+    height: 100vh;
+    background: #333333;
+}
+
+.aboutme h1{
+    margin: 0;
+    padding: 0;
+}
+
 .info {
     height: 100vh;
     background: #8a8a8a;
@@ -73,6 +83,15 @@ nav a:hover {
     padding: 0;
 }
 
+.contact{
+    height: 100vh;
+    background: #333333;
+}
+
+.contact h1{
+    margin: 0;
+    padding: 0;
+}
 
 
 .glitch-container {
