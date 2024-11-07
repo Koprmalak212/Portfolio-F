@@ -47,7 +47,6 @@ nav a {
     color: white;
     padding: 10px;
     font-size: 20px;
-    text-shadow: 1px 1px black;
 }
 
 nav a:hover {
@@ -63,6 +62,9 @@ nav a:hover {
     height: 90vh;
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(7,46,54,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -139,10 +141,4 @@ nav a:hover {
     box-shadow: 3px 3px 5px black;
     background: #636363;
     color: black;
-}
-
-.aboutme{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
