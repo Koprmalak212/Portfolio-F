@@ -223,3 +223,30 @@ nav a:hover {
     padding: 10px;
     box-shadow: 3px 3px 5px black;
 }
+
+.project{
+    border: 5px solid black;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px black;
+    width: 30vh;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project p{
+    margin: 10px;
+    padding: 0;
+}
+
+.projectcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 12vh;
+}
