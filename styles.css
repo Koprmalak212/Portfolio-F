@@ -59,7 +59,7 @@ nav a:hover {
     transform: rotate(270deg);
 }
 
-.aboutme, .projecten, .contact, .info {
+.aboutme, .projecten, .contact {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -132,8 +132,7 @@ nav a:hover {
 }
 
 .textcontainer {
-    margin: 0 auto;
-    margin-top: 10vh;
+    margin: 10vh auto 0;
     width: 90%;
     height: 80vh;
     border: 5px solid black;
@@ -150,11 +149,11 @@ nav a:hover {
     border-radius: 3vh;
 }
 
-.bgflag{
+.bgflag {
     width: 25px;
 }
 
-.aboutmepage{
+.aboutmepage {
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -162,6 +161,65 @@ nav a:hover {
     flex-direction: column;
 }
 
-.aboutmepage p{
+/*if you are reading this you are bald*/
+
+.aboutmepage p {
     font-size: 1.2rem;
+}
+
+.interview {
+    margin: 0;
+    width: 600px;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+.interview p {
+    font-size: 10px;
+}
+
+.interview h1, h2 {
+    font-size: 14px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.info {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infopage {
+    display: flex;
+}
+
+.proficiency-table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.table-header {
+    background-color: #005959;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.table-data {
+    background-color: lightgray;
+    padding: 10px;
+    box-shadow: 3px 3px 5px black;
 }
