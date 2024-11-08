@@ -255,6 +255,12 @@ nav a:hover {
     margin: 12vh;
 }
 
+.contactpage{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
 .contactpage h1{
     font-size: 1.2rem;
     padding: 10px;
@@ -262,4 +268,10 @@ nav a:hover {
 
 .contactpage img{
     width: 3vw;
+}
+
+.contactpage a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 3rem;
 }
