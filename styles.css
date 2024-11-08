@@ -150,9 +150,18 @@ nav a:hover {
     border-radius: 3vh;
 }
 
+.bgflag{
+    width: 25px;
+}
+
 .aboutmepage{
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.aboutmepage p{
+    font-size: 1.2rem;
 }
